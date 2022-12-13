@@ -1,0 +1,93 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap");
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: rgb(232, 232, 232);
+  color: rgb(232, 232, 232);
+}
+
+h1 { 
+  margin-top: 4rem;
+  margin-bottom: 7rem;
+  text-align: center;
+  color: rgb(10, 25, 93);
+  text-transform: uppercase;
+  padding: 1px;
+  font-family: 'Raleway', cursive;
+  font-weight: 100;
+  position: relative;
+  background: linear-gradient(to right, rgb(232, 232, 232), rgb(10, 25, 93), rgb(232, 232, 232));
+}
+
+h1 a {
+  background: rgb(232, 232, 232);
+  display: block;
+  padding: 20px;
+  text-decoration: none;
+  letter-spacing: 30px;
+  color: rgb(10, 25, 93);
+}
+
+.containerCover {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.containerCover.darkenPage {
+  filter: blur(2px);
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-gap: 3rem;
+  margin-top: 4rem;
+  margin-right: 5rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 10px;
+  width: 20rem;
+  height: 15rem;
+  border: 3px solid rgb(232, 232, 232);
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px 3px rgb(174, 174, 174);
+  margin: 0 2rem;
+  transition: all 0.6s;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.card:hover {
+  box-shadow: 20px 20px 20px gray; 
+  border: 7px solid rgb(232, 232, 232);
+  scale: 1.1;
+  transform: translateY(49.9%, 49.9%);
+  transition: all 0.6s;
+}
+
+ul {
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+li {
+  text-align: left;
+  margin-left: 2rem;
+  font-size: 1.2rem;  
+}
+
+.title {
+  font-size: 1.7rem;
+  text-align: center;
+}
+
+
