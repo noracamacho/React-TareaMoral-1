@@ -3,7 +3,7 @@ import './App.css'
 import Header from './components/Header'
 import About from './components/About'
 import Hobbies from './components/Hobbies'
-import FreeTime from './components/Freetime'
+import FreeTime from './components/FreeTime'
 import Food from './components/Food'
 import Technologies from './components/Technologies'
 
