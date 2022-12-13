@@ -7,19 +7,9 @@ import FreeTime from './components/FreeTime'
 import Food from './components/Food'
 import Technologies from './components/Technologies'
 
-function App() {
-
-  // let originalAlert = window.alert;
-  // window.alert = function(args) {
-  //   document.querySelector(".containerCover").classList.add("darkenPage");
-  //   setTimeout(function() {
-  //     originalAlert(args);
-  //     document.querySelector(".containerCover").classList.remove("darkenPage");
-  //   },1000);
-  // }
- 
+function App() { 
   return (
-        // <div className="App">
+        <div className="App">
           <div className="containerCover">
             <Header />
             <div className="cardContainer">
@@ -30,7 +20,7 @@ function App() {
               <Technologies />
             </div>
           </div>
-        // </div>
+        </div>
     )
 
 }
