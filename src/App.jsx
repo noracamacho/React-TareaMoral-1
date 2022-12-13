@@ -7,6 +7,14 @@ import Food from './components/Food'
 import Technologies from './components/Technologies'
 
 function App() { 
+   // let originalAlert = window.alert;
+  // window.alert = function(args) {
+  //   document.querySelector(".containerCover").classList.add("darkenPage");
+  //   setTimeout(function() {
+  //     originalAlert(args);
+  //     document.querySelector(".containerCover").classList.remove("darkenPage");
+  //   },1000);
+  // }
  
   return (
         <div className="App">
